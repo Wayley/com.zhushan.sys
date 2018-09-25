@@ -1,9 +1,10 @@
 {
   "name": "com.zhushan.sys",
   "version": "0.1.0",
+  "author": "'wzheng' <'hb_wangzheng@163.com'>",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

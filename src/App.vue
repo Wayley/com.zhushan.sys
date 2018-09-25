@@ -1,19 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="zs-admin">
+    <h3>zhushan</h3>
+    <HelloWorld :msg="msg"></HelloWorld>
+    <HelloWorld :name="name"></HelloWorld>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data() {
+    return {
+      msg: { name: 111 },
+      name: '999'
+    };
   }
-}
+};
 </script>
 
 <style>
